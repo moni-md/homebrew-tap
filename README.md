@@ -8,12 +8,7 @@ Homebrew casks maintained by aquariuslt.
 brew install aquariuslt/tap/moni
 ```
 
-Or tap once, then install by name:
-
-```sh
-brew tap aquariuslt/tap
-brew install --cask moni
-```
+Homebrew adds the tap and trusts only the cask you install.
 
 ## Casks
 
