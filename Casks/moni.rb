@@ -1,6 +1,6 @@
 cask "moni" do
-  version "1.0.9"
-  sha256 "6e803a2fdacbcf5e7873a04f92f787a8a8b8b4bc0cddf18315baeef29f0b4168"
+  version "1.0.11"
+  sha256 "ed17eb49db5922c33ac7f6b17a9c577e62af2871ce862fb3c5426ec128a732df"
 
   url "https://github.com/aquariuslt/moni-releases/releases/download/v#{version}/Moni-#{version}-arm64.dmg"
   name "Moni"
