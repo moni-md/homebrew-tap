@@ -1,14 +1,14 @@
-# aquariuslt/tap
+# moni-md/tap
 
-Homebrew casks maintained by aquariuslt.
+Homebrew casks for [Moni](https://moni.md/).
 
 ## Install
 
 ```sh
-brew install aquariuslt/tap/moni
+brew install moni-md/tap/moni
 ```
 
-Homebrew adds the tap and trusts only the cask you install.
+Homebrew adds the tap and trusts only the cask you install. This tap moved from aquariuslt/tap in November 2026; an existing `aquariuslt/tap` keeps updating through GitHub's redirect, and `brew untap aquariuslt/tap && brew tap moni-md/tap` switches to the new name.
 
 ## Casks
 
