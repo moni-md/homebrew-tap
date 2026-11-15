@@ -4,7 +4,7 @@ cask "moni" do
 
   url "https://github.com/moni-md/moni-releases/releases/download/v#{version}/Moni-#{version}-arm64.dmg"
   name "Moni"
-  desc "Markdown editor for a folder of notes"
+  desc "Markdown editor for local notes that agents can read and edit"
   homepage "https://moni.md/"
 
   livecheck do

@@ -1,6 +1,6 @@
 # moni-md/tap
 
-Homebrew tap for [Moni](https://moni.md/), a Markdown editor for a folder of notes. Moni needs Apple silicon and macOS 13 or later.
+Homebrew tap for [Moni](https://moni.md/), a Markdown editor for local notes that agents can read and edit. Moni needs Apple silicon and macOS 13 or later.
 
 ## Install
 
