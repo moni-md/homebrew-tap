@@ -8,7 +8,7 @@ The official Homebrew tap for [Moni](https://moni.md), a Markdown editor for loc
 brew install moni-md/tap/moni
 ```
 
-Moni runs on Macs with Apple silicon and macOS 13 or later, and keeps itself up to date. To update it through Homebrew instead, run `brew upgrade --greedy moni`.
+Moni keeps itself up to date after you install it. To update it through Homebrew instead, run `brew upgrade --greedy moni`.
 
 ## Uninstall
 
