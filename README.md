@@ -1,6 +1,6 @@
-# moni-md/tap
+# Moni for Homebrew
 
-Homebrew tap for [Moni](https://moni.md/), a Markdown editor for local notes that agents can read and edit. Moni needs Apple silicon and macOS 13 or later.
+The official Homebrew tap for [Moni](https://moni.md), a Markdown editor for local notes that agents can read and edit.
 
 ## Install
 
@@ -8,13 +8,7 @@ Homebrew tap for [Moni](https://moni.md/), a Markdown editor for local notes tha
 brew install moni-md/tap/moni
 ```
 
-## Update
-
-Moni updates itself, so `brew upgrade` skips it unless you pass `--greedy`:
-
-```sh
-brew upgrade --greedy moni
-```
+Moni keeps itself up to date after you install it.
 
 ## Uninstall
 
