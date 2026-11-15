@@ -1,6 +1,6 @@
 # moni-md/tap
 
-Homebrew casks for [Moni](https://moni.md/).
+Homebrew tap for [Moni](https://moni.md/), a Markdown editor for a folder of notes. Moni needs Apple silicon and macOS 13 or later.
 
 ## Install
 
@@ -8,14 +8,18 @@ Homebrew casks for [Moni](https://moni.md/).
 brew install moni-md/tap/moni
 ```
 
-Homebrew adds the tap and trusts only the cask you install. This tap moved from aquariuslt/tap in November 2026; an existing `aquariuslt/tap` keeps updating through GitHub's redirect, and `brew untap aquariuslt/tap && brew tap moni-md/tap` switches to the new name.
+## Update
 
-## Casks
+Moni updates itself, so `brew upgrade` skips it unless you pass `--greedy`:
 
-| Cask | App |
-| --- | --- |
-| `moni` | [Moni](https://moni.md/), a Markdown editor for a folder of notes. Apple silicon, macOS 13 or later. |
+```sh
+brew upgrade --greedy moni
+```
 
-Moni updates itself, so `brew upgrade` skips it unless you pass `--greedy`. Each Moni release updates the version and checksum here.
+## Uninstall
 
-`brew uninstall --zap moni` also removes Moni's settings, caches and logs. Your notes stay where they are.
+```sh
+brew uninstall --zap moni
+```
+
+`--zap` also removes Moni's settings, caches and logs. Your notes stay where they are.
