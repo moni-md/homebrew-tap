@@ -17,3 +17,7 @@ brew uninstall --zap moni
 ```
 
 `--zap` also removes Moni's settings, caches and logs. Your notes stay where they are.
+
+## Feedback
+
+Report a problem with Moni or this tap in [Moni's issues](https://github.com/moni-md/moni-releases/issues).
