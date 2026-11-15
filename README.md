@@ -8,7 +8,7 @@ The official Homebrew tap for [Moni](https://moni.md), a Markdown editor for loc
 brew install moni-md/tap/moni
 ```
 
-Moni keeps itself up to date after you install it. To update it through Homebrew instead, run `brew upgrade --greedy moni`.
+Moni keeps itself up to date after you install it.
 
 ## Uninstall
 
